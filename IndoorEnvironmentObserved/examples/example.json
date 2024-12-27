@@ -1,0 +1,23 @@
+{
+  "id": "urn:ngsi:MuseoDemo_Room_1",
+  "type": "IndoorEnvironmentObserved",
+  "dateObserved": "2020-06-08T17:54:00",
+  "refPointOfInterest": "urn:ngsi:MuseoDemo",
+  "address": {
+    "addressCountry": "IT",
+    "addressLocality": "Demo city",
+    "streetAddress": "Demo address"
+  },
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      40,
+      11
+    ]
+  },
+  "peopleCount": 10,
+  "temperature": 12.2,
+  "relativeHumidity": 0.54,
+  "atmosphericPressure": 1013.52,
+  "illuminance": 1000
+}

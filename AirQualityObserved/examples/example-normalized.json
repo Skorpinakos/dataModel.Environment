@@ -1,0 +1,143 @@
+{
+  "id": "Madrid-AmbientObserved-28079004-2016-03-15T11:00:00",
+  "type": "AirQualityObserved",
+  "dateObserved": {
+    "type": "DateTime",
+    "value": "2016-03-15T11:00:00"
+  },
+  "areaServed": {
+    "type": "Text",
+    "value": "Brooklands"
+  },
+  "airQualityLevel": {
+    "type": "Text",
+    "value": "moderate"
+  },
+  "co": {
+    "type": "Number",
+    "value": 500,
+    "metadata": {
+      "unitCode": {
+        "value": "GP"
+      }
+    }
+  },
+  "temperature": {
+    "type": "Number",
+    "value": 12.2
+  },
+  "no": {
+    "type": "Number",
+    "value": 45,
+    "metadata": {
+      "unitCode": {
+        "value": "GQ"
+      }
+    }
+  },
+  "refPointOfInterest": {
+    "type": "Text",
+    "value": "28079004-Pza.deEspanya"
+  },
+  "windDirection": {
+    "type": "Number",
+    "value": 176
+  },
+  "source": {
+    "type": "Text",
+    "value": "http://datos.madrid.es"
+  },
+  "windSpeed": {
+    "type": "Number",
+    "value": 0.64
+  },
+  "so2": {
+    "type": "Number",
+    "value": 11,
+    "metadata": {
+      "unitCode": {
+        "value": "GQ"
+      }
+    }
+  },
+  "nox": {
+    "type": "Number",
+    "value": 139,
+    "metadata": {
+      "unitCode": {
+        "value": "GQ"
+      }
+    }
+  },
+  "location": {
+    "type": "geo:json",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        -3.712247222222222,
+        40.423852777777775
+      ]
+    }
+  },
+  "typeOfLocation": {
+    "type": "Text",
+    "value": "outdoor"
+  },
+  "airQualityIndex": {
+    "type": "Number",
+    "value": 65
+  },
+  "address": {
+    "type": "StructuredValue",
+    "value": {
+      "addressCountry": "ES",
+      "addressLocality": "Madrid",
+      "streetAddress": "Plaza de Espa\u00f1a"
+    }
+  },
+  "reliability": {
+    "type": "Number",
+    "value": 0.7
+  },
+  "relativeHumidity": {
+    "type": "Number",
+    "value": 0.54
+  },
+  "precipitation": {
+    "type": "Boolean",
+    "value": false
+  },
+  "no2": {
+    "type": "Number",
+    "value": 69,
+    "metadata": {
+      "unitCode": {
+        "value": "GQ"
+      }
+    }
+  },
+  "coLevel": {
+    "type": "Text",
+    "value": "moderate"
+  },
+  "pm4": {
+      "type": "Number",
+      "value": 37
+    },
+    "tpc": {
+      "type": "Number",
+      "value": 108
+    },
+    "tsp": {
+      "type": "Number",
+      "value": 73.3
+    },
+    "pressure": {
+      "type": "Number",
+      "value": 1.1
+    },
+    "charge": {
+      "type": "Number",
+      "value": 5
+    }
+}

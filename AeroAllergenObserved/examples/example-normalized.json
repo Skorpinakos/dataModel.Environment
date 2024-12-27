@@ -1,0 +1,38 @@
+{
+  "id": "AeroAllergenObserved-CDMX-Pollen-Cuajimalpa",
+  "type": "AeroAllergenObserved",
+  "dateObserved": {
+    "type": "DateTime",
+    "value": "2018-02-11T00:00:00.00Z"
+  },
+  "allergenRisk": {
+    "type": "Text",
+    "value": "moderate"
+  },
+  "source": {
+    "type": "Text",
+    "value": "http://rema.atmosfera.unam.mx/rema/"
+  },
+  "location": {
+    "type": "geo:json",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        -99.276977,
+        19.381877
+      ]
+    }
+  },
+  "address": {
+    "type": "StructuredValue",
+    "value": {
+      "addressCountry": "MX",
+      "addressLocality": "Ciudad de M\u00e9xico",
+      "streetAddress": "Colegio Franco-Ingl\u00e9s"
+    }
+  },
+  "dateModified": {
+    "type": "DateTime",
+    "value": "2018-02-16T17:24:39.00Z"
+  }
+}

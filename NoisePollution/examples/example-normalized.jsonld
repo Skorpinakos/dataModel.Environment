@@ -1,0 +1,77 @@
+{
+  "id": "urn:ngsi-ld:NoisePollution:France-NoisePollution-12345_2022-07-01T18:00:00_2022-07-01T00:00:00",
+  "type": "NoisePollution",
+  "address": {
+    "type": "Property",
+    "value": {
+      "addressCountry": "France",
+      "postalCode": "06200",
+      "addressLocality": "Nice",
+      "type": "PostalAddress"
+    }
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        7.2032497427380235,
+        43.68056738083439
+      ]
+    }
+  },
+  "dataProvider": {
+    "type": "Property",
+    "value": "IMREDD_UCA_Nice"
+  },
+  "dateObservedFrom": {
+    "type": "Property",
+    "value": {
+      "@type": "DateTime",
+      "@value": "2022-07-01T10:40:01.00Z"
+    }
+  },
+  "dateObservedTo": {
+    "type": "Property",
+    "value": {
+      "@type": "DateTime",
+      "@value": "2022-07-01T12:40:01.00Z"
+    }
+  },
+  "noiseAnnoyanceIndex": {
+    "type": "Property",
+    "value": 3
+  },
+  "noiseOrigin": {
+    "type": "Property",
+    "value": "traffic"
+  },
+  "exposureType": {
+    "type": "Property",
+    "value": "short term exposure"
+  },
+  "buildingsType": {
+    "type": "Property",
+    "value": "residential"
+  },
+  "groundType": {
+    "type": "Property",
+    "value": "concrete"
+  },
+  "wallsType": {
+    "type": "Property",
+    "value": "glass"
+  },
+  "Lamax2": {
+    "type": "Property",
+    "value": 75
+  },
+  "Laeq2": {
+    "type": "Property",
+    "value": 85
+  },
+  "@context": [
+
+    "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
+  ]
+}

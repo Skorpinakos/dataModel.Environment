@@ -1,0 +1,67 @@
+{
+  "id": "urn:ngsi-ld:NoisePollution:France-NoisePollution-12345_2022-07-01T18:00:00_2022-07-01T00:00:00",
+  "type": "NoisePollution",
+  "address": {
+    "type": "StructuredValue",
+    "value": {
+      "addressCountry": "France",
+      "postalCode": "06200",
+      "addressLocality": "Nice",
+      "type": "PostalAddress"
+    }
+  },
+  "location": {
+    "type": "geo:json",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        7.2032497427380235,
+        43.68056738083439
+      ]
+    }
+  },
+  "dataProvider": {
+    "type": "Text",
+    "value": "IMREDD_UCA_Nice"
+  },
+  "dateObservedFrom": {
+    "type": "DateTime",
+    "value": "2022-07-01T10:40:01.00Z"
+  },
+  "dateObservedTo": {
+    "type": "DateTime",
+    "value": "2022-07-01T12:40:01.00Z"
+  },
+  "noiseAnnoyanceIndex": {
+    "type": "Number",
+    "value": 3
+  },
+  "noiseOrigin": {
+    "type": "Text",
+    "value": "traffic"
+  },
+  "exposureType": {
+    "type": "Text",
+    "value": "short term exposure"
+  },
+  "buildingsType": {
+    "type": "Text",
+    "value": "residential"
+  },
+  "groundType": {
+    "type": "Text",
+    "value": "concrete"
+  },
+  "wallsType": {
+    "type": "Text",
+    "value": "glass"
+  },
+  "Lamax2": {
+    "type": "Number",
+    "value": 75
+  },
+  "Laeq2": {
+    "type": "Number",
+    "value": 85
+  }
+}

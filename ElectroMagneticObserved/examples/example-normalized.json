@@ -1,0 +1,54 @@
+{
+  "id": "urn:ngsi-ld:ElectroMagneticObserved:ElectroMagneticObserved:MNCA-EM-018",
+  "type": "ElectroMagneticObserved",
+  "name": {
+    "type": "Text",
+    "value": "MNCA-EM-018"
+  },
+  "alternateName": {
+    "type": "Text",
+    "value": "AirPort SPA global Observation"
+  },
+  "description": {
+    "type": "Text",
+    "value": "EMF observation"
+  },
+  "location": {
+    "type": "geo:json",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        43.66481,
+        7.196545
+      ]
+    }
+  },
+  "address": {
+    "type": "StructuredValue",
+    "value": {
+      "addressCountry": "FR",
+      "addressLocality": "Nice",
+      "streetAddress": "Terminal 2 - Parking 7"
+    }
+  },
+  "areaServed": {
+    "type": "Text",
+    "value": "Nice Aeroport"
+  },
+  "refDevice": {
+    "type": "Text",
+    "value": "urn:ngsi-ld:Device:NCE-T2-P7-EM03"
+  },
+  "dateObserved": {
+    "type": "DateTime",
+    "value": "2020-03-17T08:45:00Z"
+  },
+  "eMF": {
+    "type": "Number",
+    "value": 950.12
+  },
+  "reliability": {
+    "type": "Number",
+    "value": 0.993
+  }
+}

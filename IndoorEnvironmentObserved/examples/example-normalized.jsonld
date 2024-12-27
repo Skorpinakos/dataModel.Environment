@@ -1,0 +1,52 @@
+{
+    "id": "urn:ngsi-ld:IndoorEnvironmentObserved:urn:ngsi:MuseoDemo_Room_1",
+    "type": "IndoorEnvironmentObserved",
+    "address": {
+        "type": "Property",
+        "value": {
+            "addressCountry": "IT",
+            "addressLocality": "Demo city",
+            "streetAddress": "Demo address",
+            "type": "PostalAddress"
+        }
+    },
+    "dateObserved": {
+        "type": "Property",
+        "value": "2016-03-15T11:00:00/2016-03-15T12:00:00"
+    },
+    "illuminance": {
+        "type": "Property",
+        "value": 1000
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                40,
+                11
+            ]
+        }
+    },
+    "peopleCount": {
+        "type": "Property",
+        "value": 10
+    },
+    "refPointOfInterest": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:PointOfInterest:urn:ngsi:MuseoDemo"
+    },
+    "relativeHumidity": {
+        "type": "Property",
+        "value": 0.54
+    },
+    "temperature": {
+        "type": "Property",
+        "value": 12.2
+    },
+    "@context": [
+        "https://fiware.github.io/data-models/context.jsonld",
+        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.3.jsonld",
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld"
+    ]
+}
